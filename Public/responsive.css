@@ -1,0 +1,132 @@
+@media screen and (max-width:994px) {
+   
+     div.nav{
+        position: relative;
+        overflow: visible;
+    }
+   
+    .menu{
+    display:flex;
+    position: absolute;
+    top: 100%;
+    left: -100%;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+     gap: 20px;
+     padding-bottom: 10%;
+     transition: 0.5s;
+     height: 100vh;
+
+ 
+
+   }
+   
+  .toggole{
+    display: block;
+    padding-right: 15px;
+    
+  }
+ 
+  #checkbutton:checked ~ ul.menu{
+    left: 0;
+  }
+
+   .company h2{
+    font-size: 1.5rem;
+
+   }
+   .company-section{
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-right: 20px;
+   }
+  div.main-features{
+
+    justify-content: space-around;
+   }
+   div.example{
+    flex-wrap: wrap;
+    gap: 20px;
+   }
+ div.example-card{
+       width:calc(50% - 10px);
+       height: 200px;
+      
+
+            }
+}
+
+@media  screen and (max-width:774px) {
+
+    .hero{
+        flex-direction: column-reverse;
+    }
+    .left-side-hero{
+       width: 100%;
+      
+    }
+    .main-features{
+
+    }
+    div.features-card{
+        width: 100%;
+    }
+    div.example-card{
+        width:calc(100% - 10px);
+        height: 220px;
+       
+ 
+             }
+
+   .features-option{
+    flex-direction: column;
+   }
+   
+   .big-features-card{
+    flex-direction: column;
+    padding-block: 20px;
+    
+   }
+   .big-features-card img{
+    width: 100%;
+}
+.big-features-card .text{
+    width: 100%;
+}
+.big-features-card:nth-child(2){
+    flex-direction: column-reverse;
+}
+.example-header{
+    text-align: center;
+}
+section.panel{
+ 
+  text-align: center;
+}
+.main-footer{
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-menu ul{
+    flex-direction: column ;
+    gap: 20px;
+    align-items: center;}
+
+    .sub-footer ul{
+        flex-wrap: wrap;
+        
+    }
+}
+@media screen and (min-width:480px) {
+    p{
+       font-size: 1rem; 
+    }
+    .container{
+        padding-inline: 10px;
+    }
+}
+
+   
+    
